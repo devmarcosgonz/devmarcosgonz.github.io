@@ -3880,3 +3880,18 @@ input, select, textarea {
 		}
 
 	}
+
+	.language-select {
+		position: absolute;
+		top: 10px;
+		left: 20%;
+		z-index: 1; /* Asegura que el select se muestre por encima una imagen */
+
+		width: 500px; /* Ajusta el ancho */
+		height: 50px; /* Ajusta la altura */
+		padding: auto; /* Ajusta el relleno interno */
+		margin: auto; /* Ajusta el relleno externo */
+
+		font-family: 'Trebuchet MS', sans-serif;
+		font-size: 20px; /* Ajusta el tamaño de fuente */
+	}

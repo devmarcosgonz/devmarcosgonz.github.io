@@ -11,7 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="" />
-	<meta name="keywords" content="Marcos Gonzalez" />
+	<meta name="keywords" content="Desarrollador Web Marcos Gonzalez" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -23,8 +23,9 @@
 		<!-- Intro -->
 		<section class="intro">
 			<header>
+				<h3 id="greeting">¡Hola!, soy</h3>
 				<h1>Marcos González</h1>
-				<p>Desarrollador web y Diseño UX/UI</p>
+				<p id="job">Desarrollador web y Diseño UX/UI</p>
 				<ul class="actions">
 					<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 				</ul>
@@ -34,20 +35,26 @@
 			</div>
 		</section>
 
+		<select id="languageSelect" class="language-select">
+			<option value="es">Español</option>
+			<option value="en">English</option>
+			<option value="pt-br">Português (Brasil)</option>
+		</select>
+
 		<!-- Section -->
 		<section id="first">
 			<header>
-				<h2>Sobre mí</h2>
+				<h2 id="about_me_title">Sobre mí</h2>
 			</header>
 			<div class="content">
-				<p> Estudiando Licenciatura en Ciencias Informáticas, he orientado mi desarrollo profesional hacia
-					el campo del Desarrollo Web.<br><br>
+				<p id="about_me_text"> Estudiando Licenciatura en Ciencias Informáticas, he orientado mi desarrollo
+					profesional haciael campo del Desarrollo Web.<br><br>
 
 					Como estudiante de Desarrollo Web, me enfoco en la aplicación de buenas prácticas, patrones de
 					diseño, depuración, pruebas, entre otros aspectos relevantes.<br><br>
 
 					Forman parte de mi rutina como desarrollador de software el uso de tecnologías como
-					<strong>HTML5, CSS3,
+					<strong>HTML, CSS,
 						Javascript, React.js, Node.js, Python y Django.</strong> Asimismo, estoy constantemente
 					ampliando mis
 					conocimientos en estas áreas y explorando nuevas tecnologías y herramientas.<br><br>
@@ -58,11 +65,11 @@
 		<!-- Section -->
 		<section>
 			<header>
-				<h3>Currículum Vitae</h3>
+				<h2 id="resume">Currículum Vitae</h2>
 			</header>
 			<div class="content">
 				<ul class="actions">
-					<li><a href="images/CV_Marcos_Gonzalez.pdf" target="_blank" class="button primary large">PDF</a>
+					<li><a id="pdfLink" href="#" target="_blank" class="button primary large">PDF</a>
 					</li>
 				</ul>
 			</div>
@@ -71,18 +78,18 @@
 		<!-- Section -->
 		<section>
 			<header>
-				<h2><u>Proyectos Realizados</u></h2>
+				<h2 id="projects"><u>Proyectos</u></h2>
 			</header>
 		</section>
 
 		<!-- Section -->
 		<section>
 			<header>
-				<h2>Sistema Ágil de gestión de proyectos</h2>
+				<h2 id="project_1_title">Sistema Ágil de Gestión de Proyectos</h2>
 			</header>
 			<div class="content">
-				<p style="text-align: center;"><strong>HTML5, CSS3, Javascript, Python, Django</strong></p>
-				<p>
+				<p style="text-align: center;"><strong>Python, Django, HTML, CSS, Javascript</strong></p>
+				<p id="project_1_text">
 					El producto final es un sistema ágil de gestión de proyectos, centrado en el marco SCRUM para el
 					desarrollo ágil de software. Con gráficos Kanban y Burndown Chart.<br><br><br>
 
@@ -102,7 +109,7 @@
 		<!-- Section -->
 		<section>
 			<header>
-				<h2>Contacto</h2>
+				<h2 id="contact">Contacto</h2>
 			</header>
 			<div class="content">
 				<span class="image main"><img src="images/contact.jpg" alt="" /></span>
@@ -114,16 +121,16 @@
 						<a href="mailto:marcosdanielgg98@gmail.com">marcosdanielgg98@gmail.com</a>
 					</li>
 					<li>
-						<h3>Celular</h3>
+						<h3 id="phone">Celular</h3>
 						<a href="tel:+595992430560">(+595) 992 430-560</a>
 					</li>
 					<li>
-						<h3>Dirección</h3>
+						<h3 id="address">Dirección</h3>
 						<a href="https://www.google.com/maps/search/Asuncion+Paraguay" target="_blank">Asunción,
 							Paraguay</a>
 					</li>
 					<li>
-						<h3>Sitios Web</h3>
+						<h3 id="links">Sitios Web</h3>
 						<ul class="icons">
 							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
@@ -146,8 +153,8 @@
 		</section>
 
 		<!-- Copyright -->
-		<div class="copyright">&copy; Portfolio Marcos González. All rights reserved. Design: <a
-				href="https://html5up.net">HTML5 UP</a>.
+		<div class="copyright" id="copyright">
+			&copy; Portfolio Marcos González. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>.
 		</div>
 
 	</div>
@@ -159,3 +166,4 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="app.js"></script>
