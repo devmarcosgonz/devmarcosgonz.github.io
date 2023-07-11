@@ -4,15 +4,17 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="es, en, pt-br">
 
 <head>
 	<title>Marcos González - Portfolio</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="Desarrollador Web Marcos Gonzalez" />
+	<meta name="description" content="Este es mi portafolio" />
+	<meta name="author" content="Ajkn and Marcos Gonzalez" />
+	<meta name="keywords" content="Web Developer Marcos Gonzalez, Desarrollador Web Marcos Gonzalez, Desenvolvedor Web Marcos Gonzalez, Marcos Gonzalez, Marcos González, Portfolio" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/icon.png">
 </head>
 
 <body class="is-preload">
@@ -48,14 +50,14 @@
 			</header>
 			<div class="content">
 				<p id="about_me_text"> Estudiando Licenciatura en Ciencias Informáticas, he orientado mi desarrollo
-					profesional haciael campo del Desarrollo Web.<br><br>
+					profesional hacia el campo del Desarrollo Web.<br><br>
 
 					Como estudiante de Desarrollo Web, me enfoco en la aplicación de buenas prácticas, patrones de
 					diseño, depuración, pruebas, entre otros aspectos relevantes.<br><br>
 
 					Forman parte de mi rutina como desarrollador de software el uso de tecnologías como
 					<strong>HTML, CSS,
-						Javascript, React.js, Node.js, Python y Django.</strong> Asimismo, estoy constantemente
+						Javascript, React.js, Node.js, Python y Django.</strong> Asi mismo, estoy constantemente
 					ampliando mis
 					conocimientos en estas áreas y explorando nuevas tecnologías y herramientas.<br><br>
 				</p>
@@ -100,9 +102,15 @@
 					Tiene Dashboard: Kanban y Burndown Chart, para ver gráficamente el avance del proyecto y tener una
 					visión general del estado del proyecto.<br><br>
 				</p>
-				<span class="image main"><img src="images/first_project.jpeg" alt="" /></span>
-				<span class="image main"><img src="images/first_project_2.jpeg" alt="" /></span>
-				<span class="image main"><img src="images/first_project_3.jpeg" alt="" /></span>
+				<span class="image main">
+					<img src="images/first_project.jpeg" alt="" onclick="enlargeImage(this)"/>
+				</span>
+				<span class="image main">
+					<img src="images/first_project_2.jpeg" alt="" onclick="enlargeImage(this)"/>
+				</span>
+				<span class="image main">
+					<img src="images/first_project_3.jpeg" alt="" onclick="enlargeImage(this)"/>
+				</span>
 			</div>
 		</section>
 
@@ -112,7 +120,7 @@
 				<h2 id="contact">Contacto</h2>
 			</header>
 			<div class="content">
-				<span class="image main"><img src="images/contact.jpg" alt="" /></span>
+				<img src="images/contact.jpg" alt="" />
 			</div>
 			<footer>
 				<ul class="items">

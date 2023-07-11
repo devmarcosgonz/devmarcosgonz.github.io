@@ -23,7 +23,7 @@ function update() {
         greetingElement.textContent = '¡Hola!, soy';
         jobElement.textContent = 'Desarrollador web y Diseño UX/UI';
         aboutMeTitleElement.textContent = 'Sobre mí';
-        aboutMeTextElement.innerHTML = 'Estudiando Licenciatura en Ciencias Informáticas, he orientado mi desarrollo profesional haciael campo del Desarrollo Web.<br><br> Como estudiante de Desarrollo Web, me enfoco en la aplicación de buenas prácticas, patrones de diseño, depuración, pruebas, entre otros aspectos relevantes.<br><br> Forman parte de mi rutina como desarrollador de software el uso de tecnologías como <strong>HTML, CSS, Javascript, React.js, Node.js, Python y Django.</strong> Asimismo, estoy constantemente ampliando mis conocimientos en estas áreas y explorando nuevas tecnologías y herramientas.<br><br>';
+        aboutMeTextElement.innerHTML = 'Estudiando Licenciatura en Ciencias Informáticas, he orientado mi desarrollo profesional hacia el campo del Desarrollo Web.<br><br> Como estudiante de Desarrollo Web, me enfoco en la aplicación de buenas prácticas, patrones de diseño, depuración, pruebas, entre otros aspectos relevantes.<br><br> Forman parte de mi rutina como desarrollador de software el uso de tecnologías como <strong>HTML, CSS, Javascript, React.js, Node.js, Python y Django.</strong> Asimismo, estoy constantemente ampliando mis conocimientos en estas áreas y explorando nuevas tecnologías y herramientas.<br><br>';
         resumeElement.textContent = 'Currículum Vitae';
         pdfLinkElement.href = 'images/CV_Marcos_Gonzalez.pdf'; /**/
         projectsElement.textContent = 'Proyectos';
