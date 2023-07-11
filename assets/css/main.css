@@ -3895,14 +3895,3 @@ input, select, textarea {
 		font-family: 'Trebuchet MS', sans-serif;
 		font-size: 20px; /* Ajusta el tamaño de fuente */
 	}
-
-/*My modifications*/
-
-section div span img {
-	position: relative;
-	transition: transform 0.3s ease-in-out;
-}
-
-section div span img:hover {
-	transform: scale(1.5);
-}
